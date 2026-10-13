@@ -1,0 +1,19 @@
+# dependencies and build output
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+
+# secrets and local data: never commit these
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite3
+
+# tooling noise
+.pytest_cache/
+*.log
+.DS_Store
+Thumbs.db
